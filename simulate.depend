@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1334051959 source:/home/giacomo/Dropbox/Modelli/C++/simulate/main.cpp
+	<iostream>
+
+1334421305 source:/home/giacomo/TempFiles/C++/simulate/src/agent.cpp
+	"../include/agent.h"
+	<boost/random.hpp>
+	<boost/random/normal_distribution.hpp>
+
+1334421277 /home/giacomo/TempFiles/C++/simulate/include/agent.h
+
+1334424334 source:/home/giacomo/TempFiles/C++/simulate/src/all_desks.cpp
+	"../include/all_desks.h"
+
+1334408497 /home/giacomo/TempFiles/C++/simulate/include/all_desks.h
+	"desk.h"
+	<list>
+	<stdlib.h>
+
+1334408374 /home/giacomo/TempFiles/C++/simulate/include/desk.h
+
+1334510643 source:/home/giacomo/TempFiles/C++/simulate/src/arrivals.cpp
+	"../include/arrivals.h"
+
+1334510569 /home/giacomo/TempFiles/C++/simulate/include/arrivals.h
+	<list>
+	"rexp.h"
+	"agent.h"
+
+1334510523 /home/giacomo/TempFiles/C++/simulate/include/rexp.h
+	<boost/random.hpp>
+	<boost/random/normal_distribution.hpp>
+
+1334408393 source:/home/giacomo/TempFiles/C++/simulate/src/desk.cpp
+	"../include/desk.h"
+
+1334252253 source:/home/giacomo/TempFiles/C++/simulate/src/queue.cpp
+	"../include/queue.h"
+
+1334252237 /home/giacomo/TempFiles/C++/simulate/include/queue.h
+	"agent.h"
+	<list>
+
+1334510682 source:/home/giacomo/TempFiles/C++/simulate/src/rexp.cpp
+	"../include/rexp.h"
+
+1334510670 source:/home/giacomo/TempFiles/C++/simulate/main.cpp
+	<iostream>
+	<time.h>
+	<math.h>
+	"include/agent.h"
+	"include/queue.h"
+	"include/all_desks.h"
+	"include/arrivals.h"
+
